@@ -45,6 +45,17 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         //console.log('Received Event: ' + id);
+
+        jQuery('#cms-link').click(function(){
+            jQuery('#iframe').attr('src', 'http://cms_sols.kyleyu.com');
+        });
+
+
+        jQuery('#google-link').click(function(){
+            jQuery('#iframe').attr('src', 'http://celert.com');
+
+        });
+
     }
 };
 
