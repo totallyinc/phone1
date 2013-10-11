@@ -46,16 +46,9 @@ var app = {
 
         //console.log('Received Event: ' + id);
 
-        jQuery('#cms-link').click(function(){
-            jQuery('#iframe').attr('src', 'http://cms_sols.kyleyu.com');
-        });
-
-
-        jQuery('#celert-link').click(function(){
-            jQuery('#iframe').attr('src', 'http://celert.com');
-
-        });
-
     }
 };
 
+function changeiFrame(src) {
+    document.getElementById('iframe').src = src;
+}
