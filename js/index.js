@@ -51,7 +51,7 @@ var app = {
         });
 
 
-        jQuery('#google-link').click(function(){
+        jQuery('#celert-link').click(function(){
             jQuery('#iframe').attr('src', 'http://celert.com');
 
         });

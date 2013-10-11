@@ -113,3 +113,12 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+ul li a {
+    font-size: 2em;
+}
+
+ul#menu {
+    position: fixed;
+    bottom: 0;
+}
